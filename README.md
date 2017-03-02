@@ -1,7 +1,7 @@
 # flixelighting
-A HaxeFlixel library designed to make real-time normal map based lighting easy to include in HaxeFlixel projects
-
 ***This library requires the use of OpenFL Next. Simply add the argument "-Dnext" when building your project!***
+
+A HaxeFlixel library designed to make real-time normal map based lighting easy to include in HaxeFlixel projects
 
 ![Demo](https://dl.dropboxusercontent.com/u/1491523/flixelighting/demo.gif)
 
