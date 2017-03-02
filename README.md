@@ -1,5 +1,5 @@
 # flixelighting
-A HaxeFlixel library designed to make real-time lighting easy to include in games
+A HaxeFlixel library designed to make real-time normal map based lighting easy to include in HaxeFlixel projects
 
 ## Features
 
@@ -76,7 +76,7 @@ class MyState extends FlxState
 
 ## Some useful functions
 
-You can set the attenuation of a light source by calling its "setAttenuation" method
+You can set the attenuation of a FlxLight object by calling its "setAttenuation" method
 ```haxe
 myLight.setAttenuation(constantValue, linearValue, quadraticValue);
 ```
