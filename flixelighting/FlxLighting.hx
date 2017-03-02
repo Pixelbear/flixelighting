@@ -1,4 +1,4 @@
-package lighting;
+package flixelighting;
 
 import openfl.display.BitmapData;
 import openfl.display.Shader;

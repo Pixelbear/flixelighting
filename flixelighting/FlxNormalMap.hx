@@ -1,4 +1,4 @@
-package lighting;
+package flixelighting;
 
 import flixel.FlxG;
 import openfl.Assets;
