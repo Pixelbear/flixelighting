@@ -1,4 +1,4 @@
-# lighting
+# flixelighting
 An HaxeFlixel library designed to make real-time lighting easy to include games
 
 ## Features
@@ -14,7 +14,7 @@ Currently this library allows you to:
 1. Download the directory as a zip, and include the "flixelighting" subfolder at the source of your HaxeFlixel project (The same level as your "assets", "source", "export" folders!)
 2. The following is a basic implementation within a flixel.FlxState:
 
-```
+```haxe
 //HaxeFlixel imports
 import flixel.FlxG;
 import flixel.FlxSprite;
@@ -71,10 +71,10 @@ class MyState extends FlxState
 ## Some useful functions
 
 1. You can set the attenuation of a light source by calling its "setAttenuation" method
-```
+```haxe
 myLight.setAttenuation(constantValue, linearValue, quadraticValue);
 ```
 2. You can combine normal maps using the FlxNormalMap static "composite" method
-```
+```haxe
 var myComposite:FlxNormalMap = FlxNormalMap.composite(myWidth, myHeight, [array, of, FlxNormalMaps]);
 ```
