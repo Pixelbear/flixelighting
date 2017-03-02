@@ -1,6 +1,8 @@
 # flixelighting
 A HaxeFlixel library designed to make real-time normal map based lighting easy to include in HaxeFlixel projects
 
+![alt tag](https://raw.githubusercontent.com/Pixelbear/flixelighting/master/demo.png)
+
 ## Features
 
 Currently this library allows you to:
