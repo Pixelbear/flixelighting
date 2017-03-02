@@ -9,6 +9,12 @@ Currently this library allows you to:
 - Add up to 8 modifiable lights
 - Update the lighting calculations on the fly
 
+## Upcoming
+
+- Dynamic shadows
+- Improved spotlights
+- Possibly some environment mapping?
+
 ## Getting started
 
 1. Download the directory as a .zip, and include the "flixelighting" subfolder at the source of your HaxeFlixel project (The same level as your "assets", "source", "export" folders!)
