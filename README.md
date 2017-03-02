@@ -27,7 +27,7 @@ import flixelighting.FlxLighting;
 
 class MyState extends FlxState
 {
-  //Creating a global FlxLighting object so it can be accessed in the update method
+	//Creating a global FlxLighting object so it can be accessed in the update method
 	private var myLighting:FlxLighting;
 
 	override public function create():Void
