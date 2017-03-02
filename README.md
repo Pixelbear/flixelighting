@@ -38,7 +38,7 @@ class MyState extends FlxState
 
 		//Setting up the FlxLighting object (this does all of the lighting calculations)
 		myLighting = new FlxLighting();
-    //Setting a custom ambient light color and intensity
+		//Setting a custom ambient light color and intensity
 		myLighting.setAmbient(0x181d3a, 1.0);
 
 		//Creating an FlxLight object to illuminate the scene with
@@ -50,17 +50,17 @@ class MyState extends FlxState
 		//Adding the FlxLight object to the FlxLighting object
 		myLighting.addLight(myLight);
 
-    //Adding the FlxNormalMap object to the FlxLighting object
-    //Note: only one can be supplied. Calling this method again will override the previous FlxNormalMap
+		//Adding the FlxNormalMap object to the FlxLighting object
+		//Note: only one can be supplied. Calling this method again will override the previous FlxNormalMap
 		myLighting.addNormalMap(myNormalMap);
 
-    //Getting the filter from the FlxLighting object and adding it to the list of camera filters
+		//Getting the filter from the FlxLighting object and adding it to the list of camera filters
 		FlxG.camera.setFilters([myLighting.getFilter()]);
 	}
 
 	override public function update(elapsed:Float):Void
 	{
-    //If you update any lights or the normal map, call this function to update the lighting calculations!
+		//If you update any lights or the normal map, call this function to update the lighting calculations!
 		myLighting.update();
 
 		super.update(elapsed);
@@ -74,7 +74,11 @@ class MyState extends FlxState
 ```haxe
 myLight.setAttenuation(constantValue, linearValue, quadraticValue);
 ```
-2. You can combine normal maps using the FlxNormalMap static "composite" method
+2. You can convert a FlxLight object into a spotlight by calling the "makeSpotlight" method
 ```haxe
-var myComposite:FlxNormalMap = FlxNormalMap.composite(myWidth, myHeight, [array, of, FlxNormalMaps]);
+myLight.makeSpotlight(mySpotlightWidth, myTargetX, myTargetY);
+```
+3. You can combine normal maps using the FlxNormalMap static "composite" method
+```haxe
+var myComposite:FlxNormalMap = FlxNormalMap.composite(myWidth, myHeight, [array, of, flxNormalMaps]);
 ```
