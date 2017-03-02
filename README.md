@@ -76,15 +76,15 @@ class MyState extends FlxState
 
 ## Some useful functions
 
-1. You can set the attenuation of a light source by calling its "setAttenuation" method
-		```haxe
-		myLight.setAttenuation(constantValue, linearValue, quadraticValue);
-		```
-2. You can convert a FlxLight object into a spotlight by calling the "makeSpotlight" method
-		```haxe
-		myLight.makeSpotlight(mySpotlightWidth, myTargetX, myTargetY);
-		```
-3. You can combine normal maps using the FlxNormalMap static "composite" method
-		```haxe
-		var myComposite:FlxNormalMap = FlxNormalMap.composite(myWidth, myHeight, [array, of, flxNormalMaps]);
-		```
+- You can set the attenuation of a light source by calling its "setAttenuation" method
+```haxe
+myLight.setAttenuation(constantValue, linearValue, quadraticValue);
+```
+- You can convert a FlxLight object into a spotlight by calling the "makeSpotlight" method
+```haxe
+myLight.makeSpotlight(mySpotlightWidth, myTargetX, myTargetY);
+```
+- You can combine normal maps using the FlxNormalMap static "composite" method
+```haxe
+var myComposite:FlxNormalMap = FlxNormalMap.composite(myWidth, myHeight, [array, of, flxNormalMaps]);
+```
