@@ -1,17 +1,17 @@
 # flixelighting
-An HaxeFlixel library designed to make real-time lighting easy to include games
+A HaxeFlixel library designed to make real-time lighting easy to include in games
 
 ## Features
 
 Currently this library allows you to:
 
 - Easily use real-time normal map based lighting calculations in your game
-- Add up to 8 modifiable lights to any flixel.FlxState
-- Convert lights into spotlights (WIP)
+- Add up to 8 modifiable lights
+- Update the lighting calculations on the fly
 
 ## Getting started
 
-1. Download the directory as a zip, and include the "flixelighting" subfolder at the source of your HaxeFlixel project (The same level as your "assets", "source", "export" folders!)
+1. Download the directory as a .zip, and include the "flixelighting" subfolder at the source of your HaxeFlixel project (The same level as your "assets", "source", "export" folders!)
 2. The following is a basic implementation within a flixel.FlxState:
 
 ```haxe
