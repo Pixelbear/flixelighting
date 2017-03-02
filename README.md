@@ -57,7 +57,7 @@ class MyState extends FlxState
 		myLighting.addLight(myLight);
 
 		//Adding the FlxNormalMap object to the FlxLighting object
-		//Note: only one can be supplied. Calling this method again will override the previous FlxNormalMap
+		//Note: only one FlxNormalMap can be added. Calling this method again will override the previous FlxNormalMap
 		myLighting.addNormalMap(myNormalMap);
 
 		//Getting the filter from the FlxLighting object and adding it to the list of camera filters
