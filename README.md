@@ -3,7 +3,7 @@
 
 A HaxeFlixel library designed to make real-time normal map based lighting easy to include in HaxeFlixel projects
 
-![Demo](https://dl.dropboxusercontent.com/u/1491523/flixelighting/demo.gif)
+![Demo](demo.gif)
 
 ## Features
 
